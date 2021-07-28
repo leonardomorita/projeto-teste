@@ -15,6 +15,6 @@ class Profissao extends Model
 
     public function pessoas()
     {
-        return $this->hasMany(Pessoa::class);
+        return $this->hasMany(Pessoa::class, 'prof_id', 'prof_id');
     }
 }
