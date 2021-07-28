@@ -21,3 +21,4 @@ O projeto foi desenvolvido com o framework Laravel v8.52.0. Ele tem as seguintes
 6. Gerar uma chave aleatória de segurança: ```php artisan key:generate```
 7. Configurar o banco de dados no arquivo .env
 8. Rodar as migrações: ```php artisan migrate```
+9. Opcional: Rodar no servidor do Laravel: ```php artisan serve```
