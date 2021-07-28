@@ -14,9 +14,10 @@ O projeto foi desenvolvido com o framework Laravel v8.52.0. Ele tem as seguintes
 ## Instalação
 
 1. Clonar o repositório: ```git clone https://github.com/leonardomorita/projeto-teste.git```
-2. Fazer o download das dependências *back-end*: ```composer install```
-3. Fazer o download das dependências *front-end*: ```npm install && npm run dev```
-4. Fazer a cópia do arquivo .env.example com o nome .env para a raíz do projeto: ```cp .env.example .env```
-5. Gerar uma chave aleatória de segurança: ```php artisan key:generate```
-6. Configurar o banco de dados no arquivo .env
-7. Rodar as migrações: ```php artisan migrate```
+2. Entrar na pasta do projeto: ```cd projeto-teste```
+3. Fazer o download das dependências *back-end*: ```composer install```
+4. Fazer o download das dependências *front-end*: ```npm install && npm run dev```
+5. Fazer a cópia do arquivo .env.example com o nome .env para a raíz do projeto: ```cp .env.example .env```
+6. Gerar uma chave aleatória de segurança: ```php artisan key:generate```
+7. Configurar o banco de dados no arquivo .env
+8. Rodar as migrações: ```php artisan migrate```
